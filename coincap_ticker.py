@@ -5,15 +5,15 @@ ticker_url = 'https://api.coinmarketcap.com/v2/ticker/?structure=array'
 
 limit = 100
 start = 1
-sort = 'id'
+sort = 'rank'
 convert = 'USD'
 
-choice = input("Do you want to enter custom parameters? (y/n")
+choice = input("would you like to customize your parameters?: ")
 
 if choice == 'y':
     limit = input("What is the custom limit? ")
     start = input("What is the custom start number? ")
-    sort = input("What do you want to sort by? ")
+    sort = input("What do you want to sort by? ")  # Sort by rank
     covert = input("What is your local currency? ")
     
 
