@@ -51,14 +51,14 @@ for currency in data:
     
     print
     print(str(rank) + ': ' + name + ' (' + symbol + ')' )
-    print('Market cap: ' + market_cap_string)
-    print('Price: $' + str(price))
-    print('24h Volume: $' + volume_string)
-    print('Hour change: ' + str(hour_change) + '%')
-    print('Day change: ' + str(day_change) + '%')
-    print('Week change: ' + str(week_change) + '%')
-    print('Total supply: ' + total_supply_string)
-    print('Circulating supply: ' + circulating_supply_string)
+    print('Market cap: \t\t$' + market_cap_string)
+    print('Price: \t\t\t$' + str(price))
+    print('24h Volume: \t\t$' + volume_string)
+    print('Hour change: \t\t' + str(hour_change) + '%')
+    print('Day change: \t\t' + str(day_change) + '%')
+    print('Week change: \t\t' + str(week_change) + '%')
+    print('Total supply: \t\t' + total_supply_string)
+    print('Circulating supply: \t' + circulating_supply_string)
     print('Percentage of coins in circulation: ' + str(float(circulating_supply / total_supply)))
     print
     print('~~~~~~~~~~~~~~~~~~~~~~~~~~')
