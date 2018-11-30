@@ -13,9 +13,9 @@ print(json.dumps(results, sort_keys=True, indent=4))
 data = results['data']
 ticker_url_pairs = {}
 
-for crap in data:
-    symbol = crap['symbol']
-    url = crap['id']
+for currency in data:
+    symbol = currency['symbol']
+    url = currency['id']
     ticker_url_pairs[symbol] = url
 
 print(ticker_url_pairs)
