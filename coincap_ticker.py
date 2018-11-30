@@ -61,7 +61,7 @@ while True:
         print('Week change: \t\t' + str(week_change) + '%')
         print('Total supply: \t\t' + total_supply_string)
         print('Circulating supply: \t' + circulating_supply_string)
-        print('Percentage of coins in circulation: ' + str(float(circulating_supply / total_supply)))
+        print('Percentage of coins in circulation: ' + str(float(circulating_supply / total_supply * 100)))
         print
         print('~~~~~~~~~~~~~~~~~~~~~~~~~~')
         
